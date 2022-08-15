@@ -1,0 +1,28 @@
+{
+  "name": "oss-crc64-plugin",
+  "description": "a webassembly crc64 plugin",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "karma"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/taotao7/oss-crc64-plugin.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/taotao7/oss-crc64-plugin/issues"
+  },
+  "homepage": "https://github.com/taotao7/oss-crc64-plugin#readme",
+  "dependencies": {
+    "ali-oss": "^6.17.1"
+  },
+  "devDependencies": {
+    "karma-chrome-launcher": "^3.1.1",
+    "karma-mocha": "^2.0.1",
+    "mocha": "^10.0.0"
+  }
+}
