@@ -5,13 +5,15 @@ const uploadContent = new Blob([
     .join(""),
 ]);
 
+const file = OSS.Buffer(["asdasdkjasldjaksdjkasdjasd"]);
+
 describe("browser test", () => {
   before(() => {
     client = new OSS({});
   });
 
   it("put crc64 check", async () => {
-    await client.put("test1", uploadContent, {
+    await client.put("test1", file, {
       crc64: CRC64.crc64,
     });
   });
